@@ -5,7 +5,7 @@
     <entry>
       <title>苏和的个人博客上线</title>
       <link href="/2018/08/29/hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-      <content type="html"><![CDATA[<p><br><br><strong>前提</strong></p><ul><li>最近一直在看码云上大神的开源程序</li><li>发现很多人有好看的个人博客</li><li>于是想要拥有一个属于自己的博客<br><strong>过程</strong><br>今天白天下载了node.js，hexo，git，等软件。对于之前从来没接触过的npm，以及git命令<br>行的输入很陌生导致自己踩了不少坑。但终于在晚上12点之前创建了自己的第一个博客，并<br>且申请了自己的域名。整个过程下来还是很开心的，随着年龄的增大感觉自己变得不是那么<br>喜欢折腾了，今天搭建博客的过程又让我重新找回那个爱折腾的自己。</li></ul>]]></content>
+      <content type="html"><![CDATA[<p><br></p><h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><ul><li>最近一直在看码云上大神的开源程序</li><li>发现很多人有好看的个人博客</li><li>于是想要拥有一个属于自己的博客<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2>今天白天下载了node.js，hexo，git，等软件。对于之前从来没接触过的npm，以及git命令<br>行的输入很陌生导致自己踩了不少坑。但终于在晚上12点之前创建了自己的第一个博客，并<br>且申请了自己的域名。整个过程下来还是很开心的，随着年龄的增大感觉自己变得不是那么<br>喜欢折腾了，今天搭建博客的过程又让我重新找回那个爱折腾的自己。</li></ul>]]></content>
       
       
         <tags>
