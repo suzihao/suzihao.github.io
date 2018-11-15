@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  SuHe&#39;s Blog </title>
+  <title>  tomcat配置ROOT目录 |   SuHe&#39;s Blog </title>
 
  
   
@@ -68,115 +68,38 @@
             <section class="main">  
           
 
-          
+          <article class="post">
+  
+	<div class="post-header">
 
+	<p class="post-title">	
+		tomcat配置ROOT目录
+	</p>
+			
 
+	<div class="meta-info">	
+	<span>
+		11月 15, 2018
+	</span>
 
-
-<div class="profile sildeUpMin">
 	
-		<img class="avatar" src="/images/avatar.jpg">
-
-		<p class="author">SuHe</p>
-		
-		<div class="social">
-   		      	
-			<a target="_blank" class="social-links" href="https://github.com/Lemonreds/hexo-theme-nayo">		
-				<i class="iconfont icon-Github">
-			</i></a>	
-	          	
-			<a target="_blank" class="social-links" href="">		
-				<i class="iconfont icon-Weibo">
-			</i></a>	
-	          	
-			<a target="_blank" class="social-links" href="">		
-				<i class="iconfont icon-Facebook">
-			</i></a>	
-	          	
-			<a target="_blank" class="social-links" href="">		
-				<i class="iconfont icon-Instagram">
-			</i></a>	
-	          	
-			<a target="_blank" class="social-links" href="">		
-				<i class="iconfont icon-Neteasemusic">
-			</i></a>	
-	    
-    	</div>		
+	
+		<i class="iconfont icon-words"></i>
+		<span>
+			1589
+		</span>
+	
 </div>
 
+</div> 
+	 
 
-    	  	
-  		
-    			
+	  <div class="typo post-content slideDownMin">
 
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/2018/11/15/前端学习记录/">前端学习记录</a>  
-	       
-		 
+		
 
-		<div class="article-meta">
-			<time>11月 15, 2018</time>
 			
-				<span class="iconfont icon-star"></span>
-				            
-						<a class="article-tag" href="/tags/前端/">前端</a>           
-				
-			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		 
-			<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul>
-<li><a href="http://suhe.site/about/" target="_blank" rel="noopener">关于我</a><h2 id="样式及布局"><a href="#样式及布局" class="headerlink" title="样式及布局"></a>样式及布局</h2></li>
-</ul>
-
-		  	  
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/2018/11/15/前端学习记录/">阅读更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/2018/11/15/tomcat配置ROOT目录/">tomcat配置ROOT目录</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>11月 15, 2018</time>
-			
-				<span class="iconfont icon-star"></span>
-				            
-						<a class="article-tag" href="/tags/tomcat项目部署/">tomcat项目部署</a>           
-				
-			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		 
-			<p>最近在项目部署在生产环境的时候tomcat使用默认配置总是出现找不到ROOT目录的问题，导致项目启动失败。这里记录一下解决问题的方法。</p>
+					<p>最近在项目部署在生产环境的时候tomcat使用默认配置总是出现找不到ROOT目录的问题，导致项目启动失败。这里记录一下解决问题的方法。</p>
 <p>##ROOT目录配置 </p>
 <p>###（1）删除/ROOT目录下所有文件 ：</p>
 <ul>
@@ -207,107 +130,136 @@
 <p>reloadable=true时 当web.xml或者class有改动的时候都会自动重新加载不需要从新启动服务</p>
 <p>crosscontext=”true”表示配置的不同context共享一个session</p>
 <p>注：这个里面的name表示的是访问本地的localhost地址，appBase表示项目指定的父位置；path是说明虚拟目录的名字，如果你要只输入ip地址就显示主页，则该键值留为空；docBase是虚拟目录的路径，它默认的是$tomcat/webapps/ROOT目录!debug和reloadable一般都分别设置成0和true </p>
+  	
+					
+	  </div>     
+	  
 
-		  	  
+	
+<div class="post-meta">
+      	
+
+      
+        <i class="iconfont icon-tag"></i>     
+          <a class="tag-link" href="/tags/tomcat项目部署/">tomcat项目部署</a>    
+      	
+</div>
+
+
+
+
+
+<div class="post-footer">
+  <div class="pf-left">
+      <img class="pf-avatar" src="/images/avatar.jpg">
+      <p class="pf-des">hi,i am SuHe</p>
+  </div>
+
+  <div class="pf-right">           
+      <div class="pf-links">
+        
+
+
+
+
+<span class="donate-btn">
+	<span class="iconfont icon-donate"></span>
+</span>
+
+
+<div id="donate-box" class="sildeUpMin">
+
+	<span class="donate-cancel iconfont icon-cancel"></span>
+
+	<div class="donate-img-box">
+		<img id="donate-qr-wechat" class="noLazyLoad donate-img" src="/images/donate1.png" alt="No Donate Image!">	
+		<img id="donate-qr-alipay" class="noLazyLoad donate-img" src="/images/donate2.png" alt="No Donate Image!">	
 	</div>
 
-	<div class="article-bottom">
-		<a class="article-readmore" href="/2018/11/15/tomcat配置ROOT目录/">阅读更多</a> 	
+	<span class="donate-word">世界美好 你也是</span>
+
+	<div class="donate-list">
+		<span class="iconfont icon-donate-wechat"></span>
+		<span class="iconfont icon-donate-alipay"></span>
+	</div>
+
+</div>
+
+ 
+        
+	
+<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=21d601593a1de"></script>
+	
+	<span class="share-btn">
+	<span class="iconfont icon-share"></span>
+	</span>
+
+
+	<div class="-mob-share sildeUpMin">
+		   			             
+            <a class="iconfont  icon-share-qq -mob-share-qq"></a>		
+     	   			             
+            <a class="iconfont  icon-share-weixin -mob-share-weixin"></a>		
+     	   			             
+            <a class="iconfont  icon-share-weibo -mob-share-weibo"></a>		
+     	   			             
+            <a class="iconfont  icon-share-douban -mob-share-douban"></a>		
+     	   			             
+            <a class="iconfont  icon-share-facebook -mob-share-facebook"></a>		
+     	   			             
+            <a class="iconfont  icon-share-twitter -mob-share-twitter"></a>		
+     	   			             
+            <a class="iconfont  icon-share-google -mob-share-google"></a>		
+     	   
 	</div>	
+
+      </div>  
+    <nav class="pf-paginator">
+      
+         
+          <a href="/2018/11/15/前端学习记录/" data-hover="前端学习记录">上一篇</a>      
+            
+        
+      
+        
+        <a href="/2018/08/29/hexo的第一篇博客/" data-hover="我的个人博客上线"> 下一篇</a>
+            
+  </nav>   
+  </div>
+</div> 
+	
+
+
     
-</article>     
-     	
-    	  	
-  		
-    			
+    <div id="disqus_thread"></div>
 
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/2018/08/29/hexo的第一篇博客/">我的个人博客上线</a>  
-	       
-		 
+    <script>
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://'+'lemonreds'+'.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());    
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
 
-		<div class="article-meta">
-			<time>8月 29, 2018</time>
-			
-				<span class="iconfont icon-star"></span>
-				            
-						<a class="article-tag" href="/tags/hexo/">hexo</a>           
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+
+
+	
+</article>
+
+	<div class="toc-container">
+			<div class="sidebar">
+			<p class="toc-title">
+				<i class="iconfont icon-toc"></i>
+				目录
+			</p>
+			<div class="toc-list">
 				
-			
+			</div>
 		</div>
 	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		 
-			<p><br></p>
-<h2 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h2><ul>
-<li>最近一直在看码云上大神的开源程序</li>
-<li>发现很多人有好看的个人博客</li>
-<li>于是想要拥有一个属于自己的博客<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2>今天白天下载了node.js，hexo，git，等软件。对于之前从来没接触过的npm，以及git命令<br>行的输入很陌生导致自己踩了不少坑。但终于在晚上12点之前创建了自己的第一个博客，并<br>且申请了自己的域名。整个过程下来还是很开心的，随着年龄的增大感觉自己变得不是那么<br>喜欢折腾了，今天搭建博客的过程又让我重新找回那个爱折腾的自己。</li>
-</ul>
-
-		  	  
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/2018/08/29/hexo的第一篇博客/">阅读更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/2018/08/29/hello-world/">Hello World</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>8月 29, 2018</time>
-			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		 
-			<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-		  	  
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/2018/08/29/hello-world/">阅读更多</a> 	
-	</div>	
-    
-</article>     
-     	
-
-
-
 
           </section> 
       </div>            
