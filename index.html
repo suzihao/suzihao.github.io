@@ -183,23 +183,19 @@
 	<div class="typo article-excerpt">	
 		 
 			<p>最近在项目部署在生产环境的时候tomcat使用默认配置总是出现找不到ROOT目录的问题，导致项目启动失败。这里记录一下解决问题的方法。</p>
-<p>##ROOT目录配置 </p>
-<p>###（1）删除/ROOT目录下所有文件 ：</p>
-<ul>
+<h2 id="ROOT目录配置"><a href="#ROOT目录配置" class="headerlink" title="ROOT目录配置"></a>ROOT目录配置</h2><h4 id="（1）删除-ROOT目录下所有文件-："><a href="#（1）删除-ROOT目录下所有文件-：" class="headerlink" title="（1）删除/ROOT目录下所有文件 ："></a>（1）删除/ROOT目录下所有文件 ：</h4><ul>
 <li>这种方式最为简单，直接删除/ROOT下面的所有文件，将你已经编译好的工程放到改目录下！ </li>
 <li>修改/conf/server.xml文件 ，在里面的…添加下面代码，启动Tomcat </li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;Context path=&quot;&quot; docBase=&quot;$Tomcat/webapps/ROOT&quot; /&gt;</span><br></pre></td></tr></table></figure>
 <p> 注：将应用部署到Tomcat根目录的目的是可以通过“http://[ip]:[port]”直接访问应用！（$Tomcat，为目录全路径，此配置其实是可以省略，但是为了标准还是配置的好） </p>
-<p>###（2）删除/ROOT目录下所有文件，并新建工程名（项目名）:</p>
-<ul>
+<h4 id="（2）删除-ROOT目录下所有文件，并新建工程名（项目名）"><a href="#（2）删除-ROOT目录下所有文件，并新建工程名（项目名）" class="headerlink" title="（2）删除/ROOT目录下所有文件，并新建工程名（项目名）:"></a>（2）删除/ROOT目录下所有文件，并新建工程名（项目名）:</h4><ul>
 <li>这种方式相对第一种来说，稍微复杂一点点，将你需要部署的工程（项目）放到新建的文件夹！例：（我新建了一个myapp存放我自己项目，目录为/TOOT/myapp）</li>
 <li>修改/conf/server.xml文件 ，在里面的…添加下面代码，启动Tomcat </li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;Context path=&quot;&quot; docBase=&quot;myapp&quot;/&gt;</span><br></pre></td></tr></table></figure>
 <p>注：使用“http://[ip]:[port]/[appName]”上下文路径进行访问！此时的这个配置不能省略，一定要加！ </p>
-<p>###（3）删除/ROOT目录，在webapp下新建工程名（项目名）:</p>
-<ul>
+<h4 id="（3）删除-ROOT目录，在webapp下新建工程名（项目名）"><a href="#（3）删除-ROOT目录，在webapp下新建工程名（项目名）" class="headerlink" title="（3）删除/ROOT目录，在webapp下新建工程名（项目名）:"></a>（3）删除/ROOT目录，在webapp下新建工程名（项目名）:</h4><ul>
 <li>直接在webapp下面新建工程名（项目名），例：目录/webapp/myapp。</li>
 <li>修改/conf/server.xml文件 ，在里面的…添加下面代码，启动Tomcat。 </li>
 </ul>
